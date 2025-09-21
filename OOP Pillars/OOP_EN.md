@@ -43,6 +43,7 @@ account = BankAccount("Alice", 1000)
 account.deposit(500)
 print(account.get_balance())  # ✅ 1500
 # print(account.__balance)    # ❌ AttributeError (hidden)
+```
 
 2. Abstraction
 
@@ -71,6 +72,7 @@ class Boat(Vehicle):
 vehicles = [Car(), Boat()]
 for v in vehicles:
     print(v.move())
+```
 
 3. Inheritance
 
@@ -99,6 +101,7 @@ cat = Cat("Whiskers")
 print(dog.eat())   # Inherited method
 print(dog.bark())  # Specific method
 print(cat.meow())  # Specific method
+```
 
 4. Polymorphism
 
@@ -122,6 +125,7 @@ class Ostrich(Bird):
 birds = [Bird(), Penguin(), Ostrich()]
 for b in birds:
     print(b.move())  # Same method, different behavior
+```
 
 ## 🧩 Why These Pillars Matter for SOLID
 
