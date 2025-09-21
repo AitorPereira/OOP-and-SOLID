@@ -52,9 +52,9 @@ We interact with objects through interfaces or abstract classes without needing 
 
 ✔️ Why it matters: Reduces complexity and improves code reusability.
 
+```python
 from abc import ABC, abstractmethod
 
-```python
 class Vehicle(ABC):
     @abstractmethod
     def move(self):
