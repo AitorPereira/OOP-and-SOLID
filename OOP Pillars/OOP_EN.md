@@ -1,4 +1,5 @@
-# 🧱 Object-Oriented Programming Principles (OOP Pillars) – Foundations for SOLID  
+# 🧱 Object-Oriented Programming Principles (OOP Pillars)  
+Foundations for SOLID  
 
 Design patterns are object-oriented by nature, unlike procedural programming, which focuses on executing instructions step by step.  
 
