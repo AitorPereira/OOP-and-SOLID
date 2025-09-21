@@ -129,10 +129,10 @@ for b in birds:
 
 ## 🧩 Why These Pillars Matter for SOLID
 
-These OOP principles are the foundation of the SOLID principles.
-	•	Encapsulation → Supports Single Responsibility Principle (SRP).
-	•	Abstraction → Leads to Interface Segregation (ISP).
-	•	Inheritance → Encourages Liskov Substitution (LSP).
+These OOP principles are the foundation of the SOLID principles.  
+	•	Encapsulation → Supports Single Responsibility Principle (SRP).  
+	•	Abstraction → Leads to Interface Segregation (ISP).  
+	•	Inheritance → Encourages Liskov Substitution (LSP).  
 	•	Polymorphism → Enables Open/Closed Principle (OCP) and flexibility.
 
 Together, they make software scalable, maintainable, and reusable.
