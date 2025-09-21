@@ -129,10 +129,10 @@ for p in pajaros:
 
 ## 🧩 Por qué Estos Pilares Importan para SOLID
 
-Estos principios de la POO son la base de los principios SOLID.
-	•	Encapsulación → Apoya el Principio de Responsabilidad Única (SRP).
-	•	Abstracción → Conduce a la Segregación de Interfaces (ISP).
-	•	Herencia → Refuerza la Sustitución de Liskov (LSP).
+Estos principios de la POO son la base de los principios SOLID.  
+	•	Encapsulación → Apoya el Principio de Responsabilidad Única (SRP).  
+	•	Abstracción → Conduce a la Segregación de Interfaces (ISP).  
+	•	Herencia → Refuerza la Sustitución de Liskov (LSP).  
 	•	Polimorfismo → Habilita el Principio Abierto/Cerrado (OCP) y mayor flexibilidad.
 
 En conjunto, hacen que el software sea escalable, mantenible y reutilizable.
