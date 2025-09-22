@@ -19,7 +19,7 @@ The goal is to help developers transition from simply writing code that *works* 
 
 📄 Files: 
 - English: [`OOP_Pillars_EN.md`][(./OOP_Pillars.md) ](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_EN.md)
-- Español: [`OOP_Pillars_ES.md`][(./OOP_Pillars.md) ]((https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_ES.md)
+- Español: [`OOP_Pillars_ES.md`]((https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_ES.md)
 ---
 
 ### 🔹 SOLID Principles
