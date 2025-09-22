@@ -17,8 +17,9 @@ The goal is to help developers transition from simply writing code that *works* 
 - Python code examples demonstrating each concept.  
 - Why OOP is the foundation for applying **SOLID principles**.  
 
-📄 File: [`OOP_Pillars.md`](./OOP_Pillars.md)  
-
+📄 Files: 
+- English: [`OOP_Pillars_EN.md`][(./OOP_Pillars.md) ](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_EN.md)
+- Español: [`OOP_Pillars_ES.md`][(./OOP_Pillars.md) ]((https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_ES.md)
 ---
 
 ### 🔹 SOLID Principles
