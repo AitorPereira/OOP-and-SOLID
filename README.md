@@ -38,13 +38,6 @@ The goal is to help developers transition from simply writing code that *works* 
 
 ---
 
-## 🚀 How to Use
-- Browse each `.md` file to learn about the principles.  
-- Run the Python code snippets to experiment with the examples.  
-- Use as a reference for **best practices in software design**.  
-
----
-
 ## 🌎 Languages
 - 🇬🇧 English  
 - 🇪🇸 Español  
