@@ -104,7 +104,7 @@ for s in shapes:
     print(s.area())  # Works for all shapes without modifying old code
 ```
 
-###3. Liskov Substitution Principle (LSP)
+### 3. Liskov Substitution Principle (LSP)
 
 Subclasses must be substitutable for their parent classes without altering system behavior.
 
