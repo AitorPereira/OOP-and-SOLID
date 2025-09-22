@@ -18,8 +18,8 @@ The goal is to help developers transition from simply writing code that *works* 
 - Why OOP is the foundation for applying **SOLID principles**.  
 
 📄 Files: 
-- English: [`OOP_Pillars_EN.md`][(./OOP_Pillars.md) ](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_EN.md)
-- Español: [`OOP_Pillars_ES.md`]((https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_ES.md)
+- English: [`OOP_Pillars_EN.md`](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_EN.md)
+- Español: [`OOP_Pillars_ES.md`](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/OOP%20Pillars/OOP_ES.md)
 ---
 
 ### 🔹 SOLID Principles
@@ -33,8 +33,8 @@ The goal is to help developers transition from simply writing code that *works* 
 - Demonstrates the difference between **bad vs good code design**.  
 
 📄 Files:  
-- English: [`SOLID_Principles_EN.md`](./SOLID_Principles_EN.md)  
-- Español: [`SOLID_Principles_ES.md`](./SOLID_Principles_ES.md)  
+- English: [`SOLID_Principles_EN.md`](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/SOLID/SOLID_EN.md) 
+- Español: [`SOLID_Principles_ES.md`](https://github.com/AitorPereira/OOP-and-SOLID/blob/main/SOLID/SOLID_ES.md)
 
 ---
 
