@@ -28,13 +28,13 @@ The SOLID principles aim to:
 
 ---
 
-# 1. Single Responsibility Principle (SRP)  
+### 1. Single Responsibility Principle (SRP)  
 
 A class should have **only one responsibility**.  
 If new responsibilities are needed, create new classes instead of overloading existing ones.  
 
 
-### ❌ Bad example: one class handles both data and report generation
+**❌ Bad example: one class handles both data and report generation**
 ```python
 class Report:
     def __init__(self, data):
@@ -47,7 +47,7 @@ class Report:
         print("Report:", self.calculate_total())
 ```
 
-### ✅ Good example: separate responsibilities
+**✅ Good example: separate responsibilities**
 ```python
 class Report:
     def __init__(self, data):
@@ -65,7 +65,7 @@ printer = ReportPrinter()
 printer.print_report(report)
 ```
 
-# 2. Open/Closed Principle (OCP)
+### 2. Open/Closed Principle (OCP)
 
 Software entities should be open for extension but closed for modification.
 Achieved through inheritance and polymorphism.
@@ -74,7 +74,7 @@ Achieved through inheritance and polymorphism.
 from abc import ABC, abstractmethod
 ```
 
-### ✅ Base class (closed for modification)
+**✅ Base class (closed for modification)**
 ```python
 class Shape(ABC):
     @abstractmethod
@@ -82,7 +82,7 @@ class Shape(ABC):
         pass
 ```
 
-### ✅ New shapes extend functionality without changing existing code
+**✅ New shapes extend functionality without changing existing code**
 ```python
 class Rectangle(Shape):
     def __init__(self, width, height):
@@ -104,11 +104,11 @@ for s in shapes:
     print(s.area())  # Works for all shapes without modifying old code
 ```
 
-#3. Liskov Substitution Principle (LSP)
+###3. Liskov Substitution Principle (LSP)
 
 Subclasses must be substitutable for their parent classes without altering system behavior.
 
-### ❌ Bad example: Penguin cannot fly, but Bird expects fly()
+**❌ Bad example: Penguin cannot fly, but Bird expects fly()**
 ```python
 class Bird:
     def fly(self):
@@ -118,7 +118,7 @@ class Penguin(Bird):
     def fly(self):
         raise Exception("Penguins cannot fly!")  # Violates LSP
 ```
-### ✅ Good example: Reorganize hierarchy
+**✅ Good example: Reorganize hierarchy**
 ```python
 from abc import ABC, abstractmethod
 
@@ -140,13 +140,13 @@ for b in birds:
     b.move()  # Both work correctly without breaking expectations
 ```
 
-# 4. Interface Segregation Principle (ISP)
+### 4. Interface Segregation Principle (ISP)
 
 It’s better to have many small, specific interfaces than one large, general interface.
 
 from abc import ABC, abstractmethod
 
-# ✅ Small, focused interfaces
+**✅ Small, focused interfaces**
 ```python
 class Printer(ABC):
     @abstractmethod
@@ -157,7 +157,7 @@ class Scanner(ABC):
     def scan(self): pass
 ```
 
-# ✅ Classes only implement what they need
+**✅ Classes only implement what they need**
 ```python
 class SimplePrinter(Printer):
     def print(self, document):
@@ -178,7 +178,7 @@ mfp.print("Hello")
 mfp.scan()
 ```
 
-# 5. Dependency Inversion Principle (DIP)
+### 5. Dependency Inversion Principle (DIP)
 
 High-level modules should not depend on low-level modules.
 Both should depend on abstractions.
@@ -186,13 +186,13 @@ Both should depend on abstractions.
 ```python
 from abc import ABC, abstractmethod
 ```
-### ✅ Abstraction
+**✅ Abstraction**
 ```python
 class Database(ABC):
     @abstractmethod
     def save(self, data): pass
 ```
-### ✅ Low-level implementations
+**✅ Low-level implementations**
 ```python
 class MongoDB(Database):
     def save(self, data):
@@ -202,7 +202,7 @@ class SQLDatabase(Database):
     def save(self, data):
         print("Saving to SQL Database:", data)
 ```
-### ✅ High-level module depends on abstraction, not concrete classes
+**✅ High-level module depends on abstraction, not concrete classes**
 ```python
 class Application:
     def __init__(self, db: Database):
