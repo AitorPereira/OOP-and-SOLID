@@ -143,9 +143,9 @@ for b in birds:
 ### 4. Interface Segregation Principle (ISP)
 
 It’s better to have many small, specific interfaces than one large, general interface.
-
+```python
 from abc import ABC, abstractmethod
-
+```
 **✅ Small, focused interfaces**
 ```python
 class Printer(ABC):
